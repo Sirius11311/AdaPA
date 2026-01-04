@@ -1,0 +1,22 @@
+# AdaPA-Agent Requirements
+# =========================
+
+# Core dependencies
+openai>=1.0.0
+numpy>=1.20.0
+tqdm>=4.60.0
+
+# Install separately if using preference arithmetic:
+# pip install model-arithmetic
+# Or from source: https://github.com/eth-sri/language-model-arithmetic
+
+# For preference arithmetic with local models (optional)
+torch>=2.0.0
+transformers>=4.30.0
+huggingface-hub>=0.16.0
+
+# Development dependencies (optional)
+# pytest>=7.0.0
+# black>=22.0.0
+# flake8>=4.0.0
+
